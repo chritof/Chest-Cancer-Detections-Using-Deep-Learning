@@ -1,1 +1,7 @@
-app/Data/
+App/Data/
+.DS_Store
+**/.DS_Store
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+anaconda_projects/
+**/anaconda_projects/
