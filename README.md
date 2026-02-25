@@ -1,5 +1,3 @@
-# Chest-Cancer-Detections-Using-Deep-Learning
-
 # Chest Cancer Detection Using Deep Learning
 
 ## 📌 Project Overview
