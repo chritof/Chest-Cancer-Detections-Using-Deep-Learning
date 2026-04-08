@@ -1,54 +1,12 @@
-# -------------------------
-# Python
-# -------------------------
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# -------------------------
-# Jupyter Notebook
-# -------------------------
-.ipynb_checkpoints/
-
-# -------------------------
-# Anaconda / venv
-# -------------------------
-anaconda_projects/
-env/
-venv/
-.venv/
-
-# -------------------------
-# Data (VIKTIG)
-# -------------------------
-ChestCanserV2/Data/
-
-# -------------------------
-# OS (Mac)
-# -------------------------
+App/Data/
 .DS_Store
-
-# -------------------------
-# VS Code
-# -------------------------
-.vscode/
-
-# -------------------------
-# Logs
-# -------------------------
-*.log
-
-# -------------------------
-# Model files (valgfritt)
-# -------------------------
-*.h5
-*.pt
-*.pth
-*.onnx
-
-# -------------------------
-# Temporary files
-# -------------------------
-*.tmp
-*.cache
+**/.DS_Store
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+anaconda_projects/
+**/anaconda_projects/
+archive.zip
+*.zip
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
