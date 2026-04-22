@@ -54,5 +54,5 @@ We experiment with:
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Chest-Cancer-Detections-Using-Deep-Learning.git
+git clone https://github.com/chritof/Chest-Cancer-Detections-Using-Deep-Learning.git
 cd Chest-Cancer-Detections-Using-Deep-Learning
