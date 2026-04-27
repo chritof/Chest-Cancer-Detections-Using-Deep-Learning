@@ -1,3 +1,4 @@
+#Denne har blitt laget ved hjelp av ChatGPT
 import os
 import numpy as np
 import tensorflow as tf
