@@ -2,3 +2,7 @@ tensorflow
 gradio
 pillow
 numpy
+matplotlib
+pandas
+scikit-learn
+kagglehub

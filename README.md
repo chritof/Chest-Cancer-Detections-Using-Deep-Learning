@@ -1,58 +1,45 @@
 # Chest Cancer Detection Using Deep Learning
 
-## 📌 Project Overview
+This repository contains a student project on lung cancer image classification using deep learning.
 
-This project focuses on automated chest cancer detection using deep learning models applied to medical imaging data (CT scans and histopathology images).
+The main work is documented in the notebook `ChestCancer/utforskeData.ipynb`, where we explore the dataset, build baseline models, test CNN-based approaches, and evaluate a transfer learning model.
 
-The goal is to develop and evaluate convolutional neural networks (CNNs) and transformer-based models to classify lung cancer types, including:
+## Project Contents
+
+- `ChestCancer/utforskeData.ipynb`
+  - Main notebook with data exploration, model training, and evaluation
+- `ChestCancer/app.py`
+  - Simple Gradio demo for image classification
+- `ChestCancer/model.keras`
+  - Saved trained model used by the demo
+- `ChestCancer/Data/`
+  - Dataset folders for training, validation, and testing
+
+## Classes
+
+The model predicts four classes:
 
 - Adenocarcinoma
-- Squamous Cell Carcinoma
-- Normal/Benign cases
+- Large cell carcinoma
+- Normal
+- Squamous cell carcinoma
 
-The system compares different model architectures and evaluates performance using standard medical AI metrics.
+## How To Run
 
----
-
-## 🎯 Objectives
-
-- Build a deep learning classification model for chest cancer detection
-- Compare different architectures (e.g., ResNet, EfficientNet, Vision Transformers)
-- Evaluate model performance using:
-  - Accuracy
-  - Precision
-  - Recall
-  - F1-score
-  - ROC-AUC
-- Analyze model confidence and prediction reliability
-
----
-
-## 📂 Dataset
-
-The project uses publicly available datasets:
-
-- Chest CT Scan Images Dataset
-- Lung Histopathological Images Dataset
-
-All data used in this project is publicly available and suitable for research and educational purposes.
-
----
-
-## 🧠 Models
-
-We experiment with:
-
-- Convolutional Neural Networks (CNN)
-- Transfer Learning (ResNet / EfficientNet)
-- Vision Transformers (optional comparison)
-
----
-
-## ⚙️ Installation
-
-Clone the repository:
+1. Install the required packages:
 
 ```bash
-git clone https://github.com/chritof/Chest-Cancer-Detections-Using-Deep-Learning.git
-cd Chest-Cancer-Detections-Using-Deep-Learning
+pip install -r ChestCancer/requirements.txt
+```
+
+2. Run the demo app:
+
+```bash
+cd ChestCancer
+python app.py
+```
+
+## Notes
+
+- This is a student project and not a medical tool.
+- The notebook is the best place to understand the full workflow and thought process.
