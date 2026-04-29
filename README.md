@@ -44,5 +44,3 @@ python app.py
 - This is a student project and not a medical tool.
 - The notebook is the best place to understand the full workflow and thought process.
 - In the transfer learning section, the frozen MobileNetV2-based model is the intended final model because it gives the best validation result.
-- Fine-tuning is kept in the notebook as an experiment, but it is not the intended exported winner after the selection fix.
-- Re-run the notebook from the transfer learning section onward to regenerate `ChestCancer/model.keras` with the corrected final-model selection.
