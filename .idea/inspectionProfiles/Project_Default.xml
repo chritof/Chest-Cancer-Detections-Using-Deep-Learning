@@ -1,0 +1,63 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredPackages">
+        <list>
+          <option value="hf-xet" />
+          <option value="huggingface_hub" />
+          <option value="llama-index-embeddings-huggingface" />
+          <option value="safetensors" />
+          <option value="scikit-learn" />
+          <option value="scipy" />
+          <option value="sentence-transformers" />
+          <option value="shellingham" />
+          <option value="threadpoolctl" />
+          <option value="tokenizers" />
+          <option value="transformers" />
+          <option value="typer-slim" />
+          <option value="absl-py" />
+          <option value="annotated-doc" />
+          <option value="asgiref" />
+          <option value="cffi" />
+          <option value="cv2_enumerate_cameras" />
+          <option value="eclipse-zenoh" />
+          <option value="etils" />
+          <option value="fastapi" />
+          <option value="glfw" />
+          <option value="httptools" />
+          <option value="importlib_resources" />
+          <option value="libusb-package" />
+          <option value="log-throttling" />
+          <option value="markdown-it-py" />
+          <option value="mdurl" />
+          <option value="mujoco" />
+          <option value="opencv-python" />
+          <option value="pathlib" />
+          <option value="prompt_toolkit" />
+          <option value="psutil" />
+          <option value="pycparser" />
+          <option value="Pygments" />
+          <option value="PyOpenGL" />
+          <option value="pyserial" />
+          <option value="pyusb" />
+          <option value="questionary" />
+          <option value="reachy_mini" />
+          <option value="reachy_mini_motor_controller" />
+          <option value="reachy_mini_rust_kinematics" />
+          <option value="rich" />
+          <option value="rustypot" />
+          <option value="sounddevice" />
+          <option value="soundfile" />
+          <option value="starlette" />
+          <option value="toml" />
+          <option value="uvicorn" />
+          <option value="watchfiles" />
+          <option value="wcwidth" />
+          <option value="websockets" />
+          <option value="zipp" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
