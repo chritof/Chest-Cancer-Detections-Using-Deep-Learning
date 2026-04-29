@@ -40,7 +40,7 @@ def predict(image):
 title = "Lung CT Classification Demo"
 description = (
     "Upload a lung CT image to get class probabilities from the trained transfer learning model "
-    "(MobileNetV2 frozen base). "
+    "exported from the notebook workflow. "
     "This is a student project demo and not for medical use."
 )
 

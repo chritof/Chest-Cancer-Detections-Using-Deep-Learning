@@ -11,7 +11,7 @@ The main work is documented in the notebook `ChestCancer/utforskeData.ipynb`, wh
 - `ChestCancer/app.py`
   - Simple Gradio demo for image classification
 - `ChestCancer/model.keras`
-  - Saved trained model used by the demo
+  - Saved model exported from the notebook for the demo
 - `ChestCancer/Data/`
   - Dataset folders for training, validation, and testing
 
@@ -43,3 +43,6 @@ python app.py
 
 - This is a student project and not a medical tool.
 - The notebook is the best place to understand the full workflow and thought process.
+- In the transfer learning section, the frozen MobileNetV2-based model is the intended final model because it gives the best validation result.
+- Fine-tuning is kept in the notebook as an experiment, but it is not the intended exported winner after the selection fix.
+- Re-run the notebook from the transfer learning section onward to regenerate `ChestCancer/model.keras` with the corrected final-model selection.
