@@ -15,14 +15,24 @@ The main work is documented in the notebook `ChestCancer/utforskeData.ipynb`, wh
 - `ChestCancer/Data/`
   - Dataset folders for training, validation, and testing
 
-## Classes
+## Dataset
 
-The model predicts four classes:
+The dataset used in this project is the Chest CT-Scan Images Dataset from Kaggle:
 
-- Adenocarcinoma
-- Large cell carcinoma
-- Normal
-- Squamous cell carcinoma
+https://www.kaggle.com/datasets/mohamedhanyyy/chest-ctscan-images
+
+Expected folder structure:
+
+ChestCancer/Data/train/
+ChestCancer/Data/valid/
+ChestCancer/Data/test/
+
+Each split should contain folders for the four classes:
+
+- adenocarcinoma
+- large cell carcinoma
+- normal
+- squamous cell carcinoma
 
 ## How To Run
 
